@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:skip_to_content/Resources/Private/Language/locallang.xlf" date="2025-04-28T11:35:51Z" product-name="skip_to_content">
+        <body>
+            <trans-unit id="jump_to_content">
+                <source>Skip to content</source>
+            </trans-unit>
+            <trans-unit id="jump_to_footer">
+                <source>Skip to footer</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

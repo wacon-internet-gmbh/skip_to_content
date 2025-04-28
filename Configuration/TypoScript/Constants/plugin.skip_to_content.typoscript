@@ -1,0 +1,9 @@
+plugin.tx_skiptocontent {
+  settings {
+    target {
+      skipToContent = #pageContent
+      skipToFooter = #pageFooter
+    }
+    mode = html
+  }
+}

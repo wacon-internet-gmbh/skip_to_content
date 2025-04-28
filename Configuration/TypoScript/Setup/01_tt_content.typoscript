@@ -1,0 +1,16 @@
+tt_content {
+  skiptocontent_skipper =< lib.contentElement
+  skiptocontent_skipper {
+    templateName = Skipper
+    templateRootPaths {
+      100 = EXT:skip_to_content/Resources/Private/Templates/Content/
+    }
+    settings {
+      target {
+        skipToContent = {$plugin.tx_skiptocontent.settings.target.skipToContent}
+        skipToFooter = {$plugin.tx_skiptocontent.settings.target.skipToFooter}
+      }
+      mode = {$plugin.tx_skiptocontent.settings.mode}
+    }
+  }
+}

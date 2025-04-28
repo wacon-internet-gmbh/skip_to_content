@@ -1,0 +1,14 @@
+page {
+  includeCSS {
+    skip_to_content_style = EXT:skip_to_content/Resources/Public/Css/style.css
+  }
+}
+
+temp.pageFluidTemplate < page.10
+
+page.10 >
+page.10 = COA
+page.10 {
+  1 < tt_content.skiptocontent_skipper
+  2 < temp.pageFluidTemplate
+}

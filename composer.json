@@ -1,0 +1,38 @@
+{
+    "name": "wacon/skip-to_content",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 extension to include the accessibility functions: skip to content and skip to footer",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-frontend": "^12.4 || ^13.4"
+    },
+    "require-dev": {
+        "typo3/coding-standards": "^0.8"
+    },
+    "authors": [
+        {
+            "name": "Kevin Chileong Lee",
+            "role": "Developer",
+            "email": "kevin.lee@wacon.de",
+            "homepage": "https://www.wacon.de/"
+        }
+    ],
+    "keywords": [
+        "typo3",
+        "plugin"
+    ],
+    "support": {
+        "issues": "https://github.com/wacon-internet-gmbh/skip_to_content/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wacon\\SkipToContent\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "skip_to_content"
+        }
+    }
+}
