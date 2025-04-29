@@ -1,1 +1,5 @@
 @import 'EXT:skip_to_content/Configuration/TypoScript/setup.typoscript'
+
+['{$SkipToContent.autoInclude}' == '1']
+@import 'EXT:skip_to_content/Configuration/TypoScript/StaticFile/AutoInclude/setup.typoscript'
+[END]

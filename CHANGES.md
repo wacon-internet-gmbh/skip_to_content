@@ -1,5 +1,6 @@
-## Version dev-1.2.0-0
+## Version 1.2.0
 - [FEATURE] Add Site Set
+- [CHANGE] Remove Autoinclude Static File and include it in page.typoscript with condition
 
 ## Version 1.1.1
 - [BUGFIX] Change composer name

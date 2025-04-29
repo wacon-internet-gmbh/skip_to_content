@@ -7,21 +7,28 @@ categories:
 
 settings:
   SkipToContent.target.skipToContent:
-    label: 'CSS selector for main content'
+    label: 'HTML Anchor to your main content'
+    description: 'This value is used inside href of a link'
     category: SkipToContent.target
     type: string
     default: '#pageContent'
   SkipToContent.target.skipToFooter:
-    label: 'CSS selector for page footer'
+    label: 'HTML Anchor to your page footer'
+    description: 'This value is used inside href of a link'
     category: SkipToContent.target
     type: string
     default: '#pageFooter'
   SkipToContent.mode:
     label: 'Mode'
-    description: 'Mode: js ignores CSS selectors and put the links automatically on top of your page. Only works, if FLUIDTEMPLATE is at position: page.10 and page.1 is free.'
+    description: 'Mode: js ignores CSS selectors and detects the header and footer landmark automatically. Use it, if you landmarks dont have IDs'
     category: SkipToContent.mode
     type: string
     default: 'css'
     enum:
       css: 'css'
-      js: 'js'
+      js: 'js (not recommended)'
+  SkipToContent.autoInclude:
+    label: 'Auto include'
+    description: 'If enables, then the skip to content links are set automatically inside your page object. Only works, if FLUIDTEMPLATE is on position page.10'
+    type: bool
+    default: false
