@@ -21,7 +21,7 @@ settings:
   SkipToContent.mode:
     label: 'Mode'
     description: 'Mode: js ignores CSS selectors and detects the header and footer landmark automatically. Use it, if you landmarks dont have IDs'
-    category: SkipToContent.mode
+    category: SkipToContent
     type: string
     default: 'css'
     enum:
@@ -31,4 +31,5 @@ settings:
     label: 'Auto include'
     description: 'If enables, then the skip to content links are set automatically inside your page object. Only works, if FLUIDTEMPLATE is on position page.10'
     type: bool
+    category: SkipToContent
     default: false
