@@ -1,5 +1,5 @@
 {
-    "name": "wacon/skip-to_content",
+    "name": "wacon/skip-to-content",
     "type": "typo3-cms-extension",
     "description": "TYPO3 extension to include the accessibility functions: skip to content and skip to footer",
     "license": "GPL-2.0-or-later",
