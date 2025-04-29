@@ -1,3 +1,6 @@
+## Version dev-1.2.0-0
+- [FEATURE] Add Site Set
+
 ## Version 1.1.1
 - [BUGFIX] Change composer name
 

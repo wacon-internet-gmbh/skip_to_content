@@ -1,0 +1,27 @@
+categories:
+  SkipToContent:
+    label: 'Skip to content'
+  SkipToContent.target:
+    label: 'Targets'
+    parent: SkipToContent
+
+settings:
+  SkipToContent.target.skipToContent:
+    label: 'CSS selector for main content'
+    category: SkipToContent.target
+    type: string
+    default: '#pageContent'
+  SkipToContent.target.skipToFooter:
+    label: 'CSS selector for page footer'
+    category: SkipToContent.target
+    type: string
+    default: '#pageFooter'
+  SkipToContent.mode:
+    label: 'Mode'
+    description: 'Mode: js ignores CSS selectors and put the links automatically on top of your page. Only works, if FLUIDTEMPLATE is at position: page.10 and page.1 is free.'
+    category: SkipToContent.mode
+    type: string
+    default: 'css'
+    enum:
+      css: 'css'
+      js: 'js'
