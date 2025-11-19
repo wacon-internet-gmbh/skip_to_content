@@ -1,3 +1,6 @@
+## Version 1.2.2
+- [FEATURE] Add README.md
+
 ## Version 1.2.1
 - [FEATURE] Add Extension icon
 - [BUGFIX] Wrong/Missing categories in Site Set
