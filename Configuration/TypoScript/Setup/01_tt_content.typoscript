@@ -7,10 +7,10 @@ tt_content {
     }
     settings {
       target {
-        skipToContent = {$SkipToContent.target.skipToContent ?? $plugin.tx_skiptocontent.settings.target.skipToContent}
-        skipToFooter = {$SkipToContent.target.skipToFooter ?? $plugin.tx_skiptocontent.settings.target.skipToFooter}
+        skipToContent = {$SkipToContent.target.skipToContent}
+        skipToFooter = {$SkipToContent.target.skipToFooter}
       }
-      mode = {$SkipToContent.mode ?? $plugin.tx_skiptocontent.settings.mode}
+      mode = {$SkipToContent.mode}
     }
   }
 }
