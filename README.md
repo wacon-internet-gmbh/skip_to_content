@@ -4,11 +4,11 @@ This plugin embeds the accessibility features to jump to the main content or pag
 ## Installation
 **1a. Install via composer**
 ```bash
-composer req wacon/wacon/skip-to-content
+composer req wacon/skip-to-content
 ```
 
 **1b. Install legacy mode**
-[TYPO3 Extension Manager](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/ExtensionManagement/ClassicMode/Index.html#extension-install)TYPO3 Extension Manager.
+[TYPO3 Extension Manager](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/ExtensionManagement/ClassicMode/Index.html#extension-install)
 
 **2a. Add Site Set to your site**
 
