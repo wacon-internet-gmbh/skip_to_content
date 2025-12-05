@@ -10,8 +10,10 @@ composer req wacon/wacon/skip-to-content
 **1b. Install legacy mode**
 [TYPO3 Extension Manager](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/ExtensionManagement/ClassicMode/Index.html#extension-install)TYPO3 Extension Manager.
 
-**2a. Add TypoScript Record to your template**
-Assign the TypoScript static file: **Skip To Content (Add after your Site Package)** to your [root template](https://docs.typo3.org/m/typo3/tutorial-templating/7.6/en-us/Tasks/WorkingTypoScript/TypoScriptTemplate/Index.html).
+**2a. Add Site Set to your site**
 
-**2b. TypoScript constants**
-Adjust the settings via ![constants](Documentation/Assets/skiptocontent_constant_editor.PNG).
+Assign the Site Set: **Skip To Content Skipper (Add after your Site Package)** to your [site configuration](https://docs.typo3.org/permalink/typo3-cms-felogin:configuration-site-set).
+
+**2b. Edit the set configuration**
+
+Adjust the settings via [Site set](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/SiteHandling/SiteSettingsEditor.html).

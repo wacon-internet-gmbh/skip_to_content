@@ -5,3 +5,12 @@ page {
 }
 
 temp.pageFluidTemplate < page.10
+
+["{$SkipToContent.autoInclude}" == "1"]
+page.10 >
+page.10 = COA
+page.10 {
+  1 < tt_content.skiptocontent_skipper
+  2 < temp.pageFluidTemplate
+}
+[end]

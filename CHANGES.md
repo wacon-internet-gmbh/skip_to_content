@@ -1,3 +1,7 @@
+## Version 2.0.0
+- [IMPORTANT] Remove Static File AutoInclude. AutoInclude now is set in Site set and necessary TypoScript is included automatically
+- [TASK] JS mode now support also Enter and Space key to scroll to landmarks
+
 ## Version 1.2.2
 - [FEATURE] Add README.md
 
